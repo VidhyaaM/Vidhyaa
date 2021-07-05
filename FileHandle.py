@@ -6,7 +6,7 @@ print(os.getcwd())
 print(os.listdir())
 
 def write_file(file_path):
-    with open("filenames.txt","a") as f:
+    with open("filenames."+file_ext,"a") as f:
         f.write(file_path)
   
 for file in os.listdir():
