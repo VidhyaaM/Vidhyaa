@@ -17,7 +17,7 @@ Feature: karate ui automation test w3school log in
     * driver.back()
     Then click('#w3loginbtn')
     And match driver.url =="https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fmy-learning.w3schools.com"
-    And input('#modalusername','vidhyaamanikumar.96@gmail.com')
+    And input('#modalusername','vidhyaa@sequoiaat.com')
     And input('#current-password','Newuser@1')
     And click('{^span}Log in')
     * delay(5000)
