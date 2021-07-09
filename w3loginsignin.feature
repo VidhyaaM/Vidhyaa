@@ -12,7 +12,7 @@ Feature: karate ui automation test w3school log in
     And input('#new-password','Newuser@1')
 		When click('{^span}Sign up for free')
 		And input("input[name='first_name']",'Vid')
-		And input("input[name='last_name']",'mani')
+		And input("input[name='last_name']",'m')
 		And click('{^span}Continue')
 		* driver.back()
 		Then click('#w3loginbtn')
