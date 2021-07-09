@@ -1,7 +1,7 @@
 @debug
-Feature: karate ui automation test w3school log in
+Feature: karate ui automation test w3school sign up
 
-  Scenario: w3school create acc page
+  Scenario: w3school create account sign up
     Given driver 'https://www.w3schools.com/'
     And driver.maximize()
     And click('#w3loginbtn')
