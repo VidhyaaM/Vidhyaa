@@ -11,4 +11,4 @@ Feature: karate ui automation test w3school log in
     And input('#current-password','Newuser123')
     And click('{^span}Log in')   
     * delay(5000)
-    * def abortSetup = exists('_2NfeO _1Stji') == true ? karate.call('SecondTest.feature@tag1') : karate.call('SecondTest.feature@tag2')
+    * def abortSetup = exists('_2NfeO _1Stji') == true ? karate.call('W3CreateAcc.feature@tag1') : karate.call('W3CreateAcc.feature@tag2')
